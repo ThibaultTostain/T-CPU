@@ -6,6 +6,8 @@ Vous pouvez trouvez une version française et anglaise du read_me.
 The T-CPU is a CPU made from scratch to learn how it work.
 If you want to see it, it's free of charges, just read the licence doc :)
 
+For now, I have to improve performance. And for this I think to do a general clock system to shut down a circuit when I don't use it. I want tu have juste one clock generator.
+
 ## ALU
 
 The ALU (Arithmetique Logic Unit) is the part how made all mathematical instructions.
@@ -29,6 +31,8 @@ When I write this version of read_me (10.10.2022), i do :
 
 Le T-CPU est un CPU faire à partir de zéro pour apprendre et comprendre comme il fontionne.
 Si tu veux le regarder n'hésite pas, c'est gratuit, juste lit la licence et contact moi si tu veux l'utiliser :)
+
+Pour l'instant j'aimerai améliorer les performances en réalisant un circuit d'horloge général par le quel je pourrais couper chaque circuit quand j'en aurai pas besoin. Il n'y aurai donc qu'une seule horloge.
 
 ## ALU
 
