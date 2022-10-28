@@ -52,14 +52,8 @@
     <tool lib="4" name="Register"/>
   </toolbar>
   <circuit name="main">
-    <a name="circuit" val="main"/>
-    <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="4.0"/>
-    <comp loc="(590,320)" name="add"/>
-  </circuit>
-  <circuit name="add">
     <a name="appearance" val="custom"/>
-    <a name="circuit" val="add"/>
+    <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="4.0"/>
     <appear>
@@ -447,6 +441,21 @@
     <comp lib="1" loc="(710,380)" name="AND Gate"/>
     <comp lib="1" loc="(720,240)" name="XOR Gate"/>
     <comp lib="1" loc="(780,350)" name="OR Gate"/>
+    <comp lib="8" loc="(1315,54)" name="Text">
+      <a name="text" val="add - 2bits"/>
+    </comp>
+    <comp lib="8" loc="(166,87)" name="Text">
+      <a name="text" val="half-adder"/>
+    </comp>
+    <comp lib="8" loc="(2199,65)" name="Text">
+      <a name="text" val="add - 8bits"/>
+    </comp>
+    <comp lib="8" loc="(3245,59)" name="Text">
+      <a name="text" val="add - 8bits"/>
+    </comp>
+    <comp lib="8" loc="(613,89)" name="Text">
+      <a name="text" val="full-adder"/>
+    </comp>
     <wire from="(1030,160)" to="(1030,220)"/>
     <wire from="(1030,220)" to="(1170,220)"/>
     <wire from="(1050,160)" to="(1050,210)"/>
@@ -1071,11 +1080,5 @@
     <wire from="(80,200)" to="(140,200)"/>
     <wire from="(840,230)" to="(840,350)"/>
     <wire from="(860,230)" to="(860,240)"/>
-  </circuit>
-  <circuit name="sub">
-    <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="sub"/>
-    <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="4.0"/>
   </circuit>
 </project>
